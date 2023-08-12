@@ -35,15 +35,13 @@ We will create a Lambda function that fetches all EBS snapshots owned by the sam
 
 9. Now Deploy the code on the Lambda function and click on test. It should run successfully.
 
-
 10. But you will notice that the Snapshot is not deleted yet, For the program to run correctly we need to terminate the EC2 instance first.
-
 
 11. After you terminate the instance, Test the Lambda Code again and now it will delete this snapshot.
 
-
 ![Screenshot 2023-08-12 145618](https://github.com/VarchasvH/stale-resources/assets/100064742/c1f9c20c-4418-4890-a346-30c0914ba9bb)
 
+---
 
 
 

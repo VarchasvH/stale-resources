@@ -31,7 +31,7 @@ We will create a Lambda function that fetches all EBS snapshots owned by the sam
     * 'DescribeSnapshots' and 'DeleteSnapshots'.
     * 'DescribeInstances' and 'DescribeVolumes'
 
-8. Attach these new permissions to our role.
+8. Attach these new Policies to our role.
 
 9. Now Deploy the code on the Lambda function and click on test. It should run successfully.
 
